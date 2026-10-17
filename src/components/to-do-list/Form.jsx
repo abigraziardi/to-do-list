@@ -15,7 +15,7 @@ export default function Form({ onAddItem }) {
   };
 
   return (
-    <form onSubmit={handleItem} className="p-2 flex gap-2 justify-center">
+    <form onSubmit={handleItem} className="p-2 pt-10 flex gap-2 justify-center">
       <input
         type="text"
         placeholder="Tambahkan to-do list..."
